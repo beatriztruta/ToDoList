@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App'; // Importe o componente raiz do aplicativo (geralmente App.js)
-import './index.css'; // Opcional: importe folhas de estilo globais ou de terceiros, se necessário
+import App from './App'; 
+import './index.css'; 
 
 ReactDOM.render(
   <React.StrictMode>
