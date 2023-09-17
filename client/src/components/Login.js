@@ -20,9 +20,6 @@ function Login() {
     try {
       const response = await axios.post('/api/auth/login', formData);
 
-      // Se o login for bem-sucedido, você pode redirecionar o usuário para a página de perfil ou tarefas
-      // Exemplo: history.push('/profile');
-
       console.log('Login bem-sucedido:', response.data);
     } catch (error) {
       if (error.response && error.response.data) {
